@@ -2,7 +2,7 @@ function scrollPage() {
     document.documentElement.scrollBy(0, 1); // 스크롤 이동 거리 및 방향 설정
 
     // 특정 스크롤 위치에 도달하면 최상단으로 스크롤
-    if (window.scrollY >= 28000) {
+    if (window.scrollY >= 30000) {
         // 새로고침하고 3초 뒤에 최상단으로 스크롤
         location.reload();
         setTimeout(function() {
